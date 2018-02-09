@@ -14,13 +14,14 @@
 
 <p>For minifiying files and optimize the project, a gulp process was created.</p>
 
-`gulp dit`
+`gulp dist`
 
 <p>This terminal task will create a "dist" directory in your root so you might deploy those files.</p>
 
 <h2>Version Control</h2>
 
 <ul>
-    <li>0.0.1: Project creation (03/02/2018)</li>
+    <li>0.0.12: Home page created for every resolution (09/03/02/2018)</li>
     <li>0.0.11: First elements and CSS in Home page (03/03/02/2018)</li>
+    <li>0.0.1: Project creation (03/02/2018)</li>
 </ul>
