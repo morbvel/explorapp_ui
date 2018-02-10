@@ -1,0 +1,85 @@
+@import "common-elements.scss";
+
+
+.foodies.first{
+  padding: 25px 0px;
+}
+
+.slide{
+  &:nth-child(1) {
+    left: 0;
+
+    .slide__bg {
+      left: 0;
+      background-image: url('../image/slider-1-foodies.jpg');
+    }
+
+    .slide__overlay-path {
+      fill: $oxblood;
+    }
+
+    @include mediaMaxWidth(991px) {
+      .slide__text {
+        background-color: $oxblood;
+        opacity: 0.8;
+      }
+    }
+  }
+  &:nth-child(2) {
+    left: 100%;
+
+    .slide__bg {
+      left: -50%;
+      background-image: url('../image/slider-2-foodies.jpg');
+    }
+
+    .slide__overlay-path {
+      fill: $tan;
+    }
+
+    @include mediaMaxWidth(991px) {
+      .slide__text {
+        background-color: $tan;
+        opacity: 0.8;
+      }
+    }
+  }
+  &:nth-child(3) {
+    left: 200%;
+
+    .slide__bg {
+      left: -100%;
+      background-image: url('../image/slider-3-foodies.jpg');
+    }
+
+    .slide__overlay-path {
+      fill: $blackboard;
+    }
+
+    @include mediaMaxWidth(991px) {
+      .slide__text {
+        background-color: $blackboard;
+        opacity: 0.8;
+      }
+    }
+  }
+  &:nth-child(4) {
+    left: 300%;
+
+    .slide__bg {
+      left: -150%;
+      background-image: url('../image/slider-4-foodies.jpg');
+    }
+
+    .slide__overlay-path {
+      fill: $grain;
+    }
+
+    @include mediaMaxWidth(991px) {
+      .slide__text {
+        background-color: $grain;
+        opacity: 0.8;
+      }
+    }
+  }
+}
