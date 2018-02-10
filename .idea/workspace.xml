@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd55706f-5083-4fde-bd77-bc9e17464f02" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/js/draggable-slider.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/scss/common-elements.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/scss/foodies.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/scss/variables.scss" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/css/home.css" afterPath="$PROJECT_DIR$/app/css/home.css" />
-      <change beforePath="$PROJECT_DIR$/app/css/styles.css" afterPath="$PROJECT_DIR$/app/css/styles.css" />
-      <change beforePath="$PROJECT_DIR$/app/foodies.html" afterPath="$PROJECT_DIR$/app/foodies.html" />
-      <change beforePath="$PROJECT_DIR$/app/home.html" afterPath="$PROJECT_DIR$/app/home.html" />
-      <change beforePath="$PROJECT_DIR$/app/js/scripts.js" afterPath="$PROJECT_DIR$/app/js/scripts.js" />
-      <change beforePath="$PROJECT_DIR$/app/scss/home.scss" afterPath="$PROJECT_DIR$/app/scss/home.scss" />
-      <change beforePath="$PROJECT_DIR$/app/scss/styles.scss" afterPath="$PROJECT_DIR$/app/scss/styles.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -249,7 +238,7 @@
       <workItem from="1518101129636" duration="2264000" />
       <workItem from="1518167229642" duration="185000" />
       <workItem from="1518175288432" duration="689000" />
-      <workItem from="1518193495093" duration="22204000" />
+      <workItem from="1518193495093" duration="22898000" />
     </task>
     <task id="LOCAL-00001" summary="README">
       <created>1517685981803</created>
@@ -283,7 +272,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73006000" />
+    <option name="totallyTimeSpent" value="73700000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
