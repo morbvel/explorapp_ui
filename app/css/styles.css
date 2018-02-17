@@ -480,6 +480,90 @@ svg {
   width: 100%;
   height: 350px; }
 
+.gm-style-mtc, .gm-style-cc {
+  display: none; }
+
+.recomendados {
+  position: relative;
+  left: 0% !important; }
+  .recomendados .carousel-indicators {
+    bottom: 0px;
+    margin-bottom: 0px; }
+  @media screen and (min-width: 1024px) {
+    .recomendados .carousel-item .image-resizer {
+      min-height: 250px;
+      max-height: 250px; } }
+  @media screen and (max-width: 1023px) {
+    .recomendados .carousel-item .image-resizer {
+      min-height: 150px;
+      max-height: 150px; } }
+  @media screen and (max-width: 766px) {
+    .recomendados .carousel-item .image-resizer img {
+      max-height: none;
+      max-width: 100%; } }
+  .recomendados .carousel-item h4 {
+    padding: 15px 0px; }
+    @media screen and (max-width: 766px) {
+      .recomendados .carousel-item h4 {
+        text-align: center;
+        border-bottom: 1px solid #565656;
+        padding-bottom: 5px;
+        margin-bottom: 25px;
+        font-size: 1.2em; } }
+  .recomendados .ctrl-carousel {
+    border-radius: 5px;
+    width: auto;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    @media screen and (min-width: 1024px) {
+      .recomendados .ctrl-carousel {
+        padding: 50px 15px;
+        margin: 80px 25px;
+        height: 50px; } }
+    @media screen and (min-width: 767px) and (max-width: 1023px) {
+      .recomendados .ctrl-carousel {
+        padding: 30px 15px;
+        height: 50px;
+        margin: 50px 25px; } }
+    .recomendados .ctrl-carousel .fa-angle-left, .recomendados .ctrl-carousel .fa-angle-right {
+      color: transparent;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+      @media screen and (min-width: 1024px) {
+        .recomendados .ctrl-carousel .fa-angle-left, .recomendados .ctrl-carousel .fa-angle-right {
+          font-size: 38px; } }
+  .recomendados .ctrl-carousel:hover {
+    background-color: #565656; }
+    .recomendados .ctrl-carousel:hover .fa-angle-left, .recomendados .ctrl-carousel:hover .fa-angle-right {
+      color: #D7CEC7; }
+
+.modal .modal-body #modal-image {
+  max-width: 100%; }
+
+.modal .modal-body .row {
+  padding: 15px; }
+  .modal .modal-body .row .image-likes .fa-heart, .modal .modal-body .row .image-likes .fa-comments, .modal .modal-body .row .image-likes .fa-street-view, .modal .modal-body .row .image-comments .fa-heart, .modal .modal-body .row .image-comments .fa-comments, .modal .modal-body .row .image-comments .fa-street-view, .modal .modal-body .row .image-place .fa-heart, .modal .modal-body .row .image-place .fa-comments, .modal .modal-body .row .image-place .fa-street-view {
+    margin-right: 15px;
+    color: #76323F; }
+  .modal .modal-body .row .image-likes a, .modal .modal-body .row .image-comments a, .modal .modal-body .row .image-place a {
+    color: black;
+    text-decoration: none; }
+  .modal .modal-body .row .comments {
+    padding: 0px; }
+    .modal .modal-body .row .comments a {
+      color: #76323F; }
+    .modal .modal-body .row .comments span {
+      float: right;
+      text-align: right; }
+    .modal .modal-body .row .comments p {
+      padding-top: 15px; }
+
 @-webkit-keyframes colortransition {
   0% {
     color: #D7CEC7; }
@@ -1213,8 +1297,89 @@ svg {
   width: 100%;
   height: 350px; }
 
-.foodies.first {
-  padding: 25px 0px; }
+.gm-style-mtc, .gm-style-cc {
+  display: none; }
+
+.recomendados {
+  position: relative;
+  left: 0% !important; }
+  .recomendados .carousel-indicators {
+    bottom: 0px;
+    margin-bottom: 0px; }
+  @media screen and (min-width: 1024px) {
+    .recomendados .carousel-item .image-resizer {
+      min-height: 250px;
+      max-height: 250px; } }
+  @media screen and (max-width: 1023px) {
+    .recomendados .carousel-item .image-resizer {
+      min-height: 150px;
+      max-height: 150px; } }
+  @media screen and (max-width: 766px) {
+    .recomendados .carousel-item .image-resizer img {
+      max-height: none;
+      max-width: 100%; } }
+  .recomendados .carousel-item h4 {
+    padding: 15px 0px; }
+    @media screen and (max-width: 766px) {
+      .recomendados .carousel-item h4 {
+        text-align: center;
+        border-bottom: 1px solid #565656;
+        padding-bottom: 5px;
+        margin-bottom: 25px;
+        font-size: 1.2em; } }
+  .recomendados .ctrl-carousel {
+    border-radius: 5px;
+    width: auto;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    @media screen and (min-width: 1024px) {
+      .recomendados .ctrl-carousel {
+        padding: 50px 15px;
+        margin: 80px 25px;
+        height: 50px; } }
+    @media screen and (min-width: 767px) and (max-width: 1023px) {
+      .recomendados .ctrl-carousel {
+        padding: 30px 15px;
+        height: 50px;
+        margin: 50px 25px; } }
+    .recomendados .ctrl-carousel .fa-angle-left, .recomendados .ctrl-carousel .fa-angle-right {
+      color: transparent;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+      @media screen and (min-width: 1024px) {
+        .recomendados .ctrl-carousel .fa-angle-left, .recomendados .ctrl-carousel .fa-angle-right {
+          font-size: 38px; } }
+  .recomendados .ctrl-carousel:hover {
+    background-color: #565656; }
+    .recomendados .ctrl-carousel:hover .fa-angle-left, .recomendados .ctrl-carousel:hover .fa-angle-right {
+      color: #D7CEC7; }
+
+.modal .modal-body #modal-image {
+  max-width: 100%; }
+
+.modal .modal-body .row {
+  padding: 15px; }
+  .modal .modal-body .row .image-likes .fa-heart, .modal .modal-body .row .image-likes .fa-comments, .modal .modal-body .row .image-likes .fa-street-view, .modal .modal-body .row .image-comments .fa-heart, .modal .modal-body .row .image-comments .fa-comments, .modal .modal-body .row .image-comments .fa-street-view, .modal .modal-body .row .image-place .fa-heart, .modal .modal-body .row .image-place .fa-comments, .modal .modal-body .row .image-place .fa-street-view {
+    margin-right: 15px;
+    color: #76323F; }
+  .modal .modal-body .row .image-likes a, .modal .modal-body .row .image-comments a, .modal .modal-body .row .image-place a {
+    color: black;
+    text-decoration: none; }
+  .modal .modal-body .row .comments {
+    padding: 0px; }
+    .modal .modal-body .row .comments a {
+      color: #76323F; }
+    .modal .modal-body .row .comments span {
+      float: right;
+      text-align: right; }
+    .modal .modal-body .row .comments p {
+      padding-top: 15px; }
 
 .slide:nth-child(1) {
   left: 0; }
@@ -1253,9 +1418,9 @@ svg {
       opacity: 0.8; } }
 
 .slide:nth-child(4) {
-  left: 300%; }
+  left: 200%; }
   .slide:nth-child(4) .slide__bg {
-    left: -150%;
+    left: -100%;
     background-image: url("../image/slider-4-foodies.jpg"); }
   .slide:nth-child(4) .slide__overlay-path {
     fill: #D7CEC7; }
@@ -1263,3 +1428,51 @@ svg {
     .slide:nth-child(4) .slide__text {
       background-color: #D7CEC7;
       opacity: 0.8; } }
+
+.foodies {
+  padding: 0px; }
+
+.foodies.first {
+  padding-top: 25px; }
+
+.foodies.second {
+  padding: 25px 0px; }
+  .foodies.second .carousel-item a {
+    display: inline;
+    position: relative;
+    overflow: hidden; }
+    .foodies.second .carousel-item a h4 {
+      position: relative;
+      text-decoration: none;
+      display: inline-block;
+      width: 100%;
+      transition: 0.25s;
+      color: #565656; }
+      @media screen and (max-width: 766px) {
+        .foodies.second .carousel-item a h4 {
+          margin: 15px auto; } }
+    @media screen and (min-width: 767px) {
+      .foodies.second .carousel-item a h4:after {
+        display: block;
+        content: '';
+        border-bottom: solid 1px #565656;
+        transform: scaleX(0);
+        transition: transform 0.25s ease-in-out;
+        transform-origin: 100% 50%; }
+      .foodies.second .carousel-item a h4:hover:after {
+        transform: scaleX(1);
+        transform-origin: 0 50%; }
+      .foodies.second .carousel-item a h4:hover {
+        color: #565656; } }
+  .foodies.second .carousel-item a:hover {
+    text-decoration: none; }
+
+.foodies.third {
+  background-color: #76323F;
+  padding: 25px 0px;
+  color: #D7CEC7; }
+  @media screen and (min-width: 1024px) {
+    .foodies.third .image-resizer {
+      min-height: 250px;
+      max-height: 250px;
+      cursor: pointer; } }
