@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Negocios</title>
+
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+
+    <!-- Menu -->
+    <nav role="navigation">
+        <div id="menuToggle" class="container">
+            <input type="checkbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+                <a href="home.html"><li>Home</li></a>
+                <a href="foodies.html"><li>Foodies</li></a>
+                <a href="#"><li>Stays</li></a>
+                <a href="#"><li>Live Shows</li></a>
+                <li></li>
+                <li>
+                    <p><i class="far fa-user"></i>Miguel<i class="fas fa-sign-out-alt"></i></p>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Cabecera del negocio -->
+    <div class="container-fluid capa-cabecera">
+        <div class="image-resizer">
+            <img class="imagen-cabecera-negocio" src="./image/negocio-cabecera.jpg" />
+        </div>
+    </div>
+
+    <!-- Breadcrumb -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="home.html" class="link-breadcrumb">Inicio</a><i class="fas fa-angle-right"></i>
+                <a href="foodies.html" class="link-breadcrumb">Foodies</a><i class="fas fa-angle-right"></i>
+                <span class="link-breadcrumb active">El Rincón de Isi</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cuerpo del Negocio -->
+    <div class="container-fluid cuerpo-negocio">
+        <div class="container">
+            <h2>El rincón de Isi</h2>
+
+            <div class="row">
+
+                <div class="col col-12 col-md-8">
+                    <p>Desde la monumental Ciudad Rodrigo, en los Arribes del Duero,  y con más de 30 años a los fogones, el restaurante El Rincón de ISI se ha convertido en poco tiempo en un lugar de referencia para muchos en Valladolid. La mejor comida tradicional unida a una amplia cultura gastronómica, con influencias de la cocina vasca y portuguesa, convierten sus platos caseros en auténticas delicias para el paladar.</p>
+                    <p>Durante los 6 años que lleva El Rincón de ISI en Valladolid, por él han pasado multitud de personas y personajes célebres del mundo del deporte, la cultura y la moda. En un ambiente cálido y cercano, los comensales pueden disfrutar de multitud de platos frescos y tapas, así como sus especialidades a la parrilla.</p>
+                    <p>Ubicado en una de las zonas más exclusivas de Valladolid, en la urbanización Valparaiso, sus noches temáticas, jornadas gastronómicas y un ambiente distinguido convierten al Rincón de ISI en un lugar perfecto para las celebraciones familiares.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt lacus eu ultrices semper. Nam metus lectus, lobortis ac feugiat eget, sodales id neque. Curabitur consequat vulputate lacus, eget semper justo fringilla non. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    <p>Vivamus pharetra ligula ut odio mollis tincidunt eget ac lacus. Etiam mi erat, posuere non quam ut, lobortis condimentum diam. Phasellus eget neque aliquam, finibus erat vel, dapibus risus. Sed vulputate ipsum ipsum. Praesent maximus sem tellus, a lacinia ante blandit vitae.</p>
+                    <p>Curabitur tempus magna ac aliquam sollicitudin. Morbi tellus dui, semper sed lectus at, molestie imperdiet felis. Quisque ex eros, lacinia eu neque vestibulum, iaculis rutrum dolor. Nam nisl lectus, consequat ut nisi eu, volutpat iaculis lectus. Mauris viverra lacinia magna, sit amet facilisis quam finibus nec. Donec lobortis eu tortor eget porttitor. </p>
+                 </div>
+                <div class="col col-12 col-md-4 bloque-lateral">
+                    <h3>Dirección</h3>
+                    <div id="map-business" style="width: 100%;height: 200px;">
+
+                    </div>
+                    <hr/>
+                    <h3>Contacto</h3>
+                    <div class="row contact">
+                        <i class="fas fa-phone col col-4"></i><span class="col col-8">626 269 366</span>
+                    </div>
+                    <div class="row contact">
+                        <i class="fab fa-telegram-plane col col-4"></i><span class="col col-8"><a href="mailto:morbvel@me.com">morbvel@me.com</a></span>
+                    </div>
+                    <hr/>
+                    <div class="row">
+                        <span class="col-3 icon-footer"><a href="http://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></span>
+                        <span class="col-3 icon-footer"><a href="http://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></span>
+                        <span class="col-3 icon-footer"><a href="http://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></span>
+                        <span class="col-3 icon-footer"><a href="http://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Productos del negocio -->
+    <div class="container-fluid productos">
+        <div class="container">
+            <h2>Productos</h2>
+            <div class="row">
+
+                <div class="producto col-12 col-md-3" data-toggle="modal" data-target="#product-modal">
+                    <div class="image-resizer zoom">
+                        <img src="./image/cocido.jpg" />
+                    </div>
+                    <h3>Cocido Castellano</h3>
+                </div>
+
+                <div class="producto col-12 col-md-3" data-toggle="modal" data-target="#product-modal">
+                    <div class="image-resizer zoom">
+                        <img src="./image/chuleton.jpg" />
+                    </div>
+                    <h3>Chuletón de Buey Charro</h3>
+                </div>
+
+                <div class="producto col-12 col-md-3" data-toggle="modal" data-target="#product-modal">
+                    <div class="image-resizer zoom">
+                        <img src="./image/jijas.jpg" />
+                    </div>
+                    <h3>Jijas de Cerdo</h3>
+                </div>
+
+                <div class="producto col-12 col-md-3" data-toggle="modal" data-target="#product-modal">
+                    <div class="image-resizer zoom">
+                        <img src="./image/tortilla.jpg" />
+                    </div>
+                    <h3>Tortilla de Patatas</h3>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Parallax negocios -->
+    <div class="parallax-window parallax-block-1-business" data-parallax="scroll" data-image-src="/image/isi.jpg"></div>
+
+
+    <!-- Galería del negocio -->
+    <div class="container-fluid gallery-business">
+        <div class="container">
+            <div class="row">
+                <div class="col col-6"><h2>Galería del Negocio</h2></div>
+                <div class="col col-6 ver-mas"><a>Ver mas ></a></div>
+            </div>
+            <div class="row">
+
+                <div class="col col-12 col-md-4">
+                    <div class="image-resizer gallery-open" data-toggle="modal" data-target="#gallery-modal">
+                        <img src="image/negocio-1.jpeg" />
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at.</p>
+                </div>
+
+                <div class="col col-12 col-md-4">
+                    <div class="image-resizer gallery-open" data-toggle="modal" data-target="#gallery-modal">
+                        <img src="image/negocio-3.jpg" />
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at.</p>
+                </div>
+
+                <div class="col col-12 col-md-4">
+                    <div class="image-resizer gallery-open" data-toggle="modal" data-target="#gallery-modal">
+                        <img src="image/negocio-2.jpeg" />
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at.</p>
+                </div>
+
+                <div class="col col-12 col-md-4">
+                    <div class="image-resizer gallery-open" data-toggle="modal" data-target="#gallery-modal">
+                        <img src="image/negocio-3.jpg" />
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at.</p>
+                </div>
+
+                <div class="col col-12 col-md-4">
+                    <div class="image-resizer gallery-open" data-toggle="modal" data-target="#gallery-modal">
+                        <img src="image/negocio-1.jpeg" />
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Parallax negocios -->
+    <div class="parallax-window parallax-block-2-business" data-parallax="scroll" data-image-src="/image/isi2.jpg"></div>
+
+    <!-- Noticias del Negocio -->
+    <div class="container-fluid noticias noticias-negocio">
+        <div class="container">
+            <div class="row">
+                <div class="col col-6"><h2>Noticias Relacionadas</h2></div>
+                <div class="col col-6 ver-mas"><a>Ver mas ></a></div>
+            </div>
+            <div class="row">
+                <div class="col col-12 col-md-4">
+                    <a href="#">
+                        <div class="image-resizer zoom">
+                            <img src="image/negocio-1.jpeg" />
+                        </div>
+                        <h3>Noticia 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at.</p>
+                    </a>
+                </div>
+                <div class="col col-12 col-md-4">
+                    <a href="#">
+                        <div class="image-resizer zoom">
+                            <img src="image/negocio-2.jpeg" />
+                        </div>
+                        <h3>Noticia 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at.</p>
+                    </a>
+                </div>
+                <div class="col col-12 col-md-4">
+                    <a href="#">
+                        <div class="image-resizer zoom">
+                            <img src="image/negocio-3.jpg" />
+                        </div>
+                        <h3>Noticia 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="row">
+                <!-- First footer block -->
+                <div class="col col-12 col-md-4 first">
+                    <form action="#" method="post">
+                        <h3>Newsletter</h3>
+                        <input type="email" placeholder="Introduzca su email" class="form-input col-12 newsletter-input" />
+                        <input type="submit" class="btn btn-primary col-12" value="Suscribirse" />
+                    </form>
+                </div>
+
+                <div class="col col-12 col-md-4 second">
+                    <div class="row">
+                        <a href="#" class="col col-12 col-md-6">Quiénes Somos</a>
+                        <a href="#" class="col col-12 col-md-6">Contacto</a>
+                        <a href="#" class="col col-12 col-md-6">Empleo</a>
+                        <a href="#" class="col col-12 col-md-6">Mapa Web</a>
+                    </div>
+                </div>
+
+                <!-- Second footer block -->
+                <div class="col col-12 col-md-4 third">
+                    <span class="col-12 col-md-4 icon-footer"><a href="http://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></span>
+                    <span class="col-12 col-md-4 icon-footer"><a href="http://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></span>
+                    <span class="col-12 col-md-4 icon-footer"><a href="http://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></span>
+                    <span class="col-12 col-md-4 icon-footer"><a href="http://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Modal de los productos -->
+    <div class="modal fade" id="product-modal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+                <!-- Modal header -->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <img id="product-image" />
+                    <hr/>
+                    <h4 id="product-name"></h4>
+                    <div class="row">
+                        <div class="col col-12 offer">
+                            <span class="col col-6">Hasta 15/02/2018</span>
+                            <span class="col col-6"><i class="fas fa-plus"></i></span>
+                            <p class="col col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at.</p>
+                            <hr/>
+                        </div>
+
+                        <div class="col col-12 offer">
+                            <span class="col col-6">Hasta 15/02/2018</span>
+                            <span class="col col-6"><i class="fas fa-plus"></i></span>
+                            <p class="col col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at.</p>
+                            <hr/>
+                        </div>
+
+                        <div class="col col-12 offer">
+                            <span class="col col-6">Hasta 15/02/2018</span>
+                            <span class="col col-6"><i class="fas fa-plus"></i></span>
+                            <p class="col col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at.</p>
+                            <hr/>
+                        </div>
+
+                        <div class="col col-12 offer">
+                            <span class="col col-6">Hasta 15/02/2018</span>
+                            <span class="col col-6"><i class="fas fa-plus"></i></span>
+                            <p class="col col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at.</p>
+                            <hr/>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="gallery-modal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <img id="modal-image" />
+                    <hr/>
+                    <div class="row">
+                        <span class="image-likes col-2"><i class="far fa-heart"></i>1567</span>
+                        <span class="image-comments col-2"><i class="far fa-comments"></i>53</span>
+                        <span class="image-place col-3"><i class="fas fa-street-view"></i><a href="https://www.google.es/maps/place/El+Rinc%C3%B3n+de+Isi/@41.6252296,-4.7536542,15z/data=!4m2!3m1!1s0x0:0x1d96c76f4baf4fe8?sa=X&ved=0ahUKEwjFy4Sr-azZAhUE1hQKHRbYC3cQ_BIIjgEwCg" target="_blank">El Rincón de Isi</a></span>
+                    </div>
+                    <div class="row">
+                        <div class="col col-12 comments">
+                            <a href="#" class="col col-6">Miguel Orbañanos</a>
+                            <span class="col col-6">15/02/2018</span>
+                            <p class="col col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at.</p>
+                            <hr/>
+                        </div>
+
+                        <div class="col col-12 comments">
+                            <a href="#" class="col col-6">Miguel Orbañanos</a>
+                            <span class="col col-6">15/02/2018</span>
+                            <p class="col col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at.</p>
+                            <hr/>
+                        </div>
+
+                        <div class="col col-12 comments">
+                            <a href="#" class="col col-6">Miguel Orbañanos</a>
+                            <span class="col col-6">15/02/2018</span>
+                            <p class="col col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at.</p>
+                            <hr/>
+                        </div>
+
+                        <div class="col col-12 comments">
+                            <a href="#" class="col col-6">Miguel Orbañanos</a>
+                            <span class="col col-6">15/02/2018</span>
+                            <p class="col col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at.</p>
+                            <hr/>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.min.js"></script>
+</body>
+</html>
