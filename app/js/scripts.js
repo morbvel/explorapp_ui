@@ -1,8 +1,11 @@
 $(document).ready(function () {
-    $('.first-parallax-block').parallax({imageSrc: '../image/parallax1.jpg'});
-    $('.second-parallax-block').parallax({imageSrc: '../image/parallax2.jpeg'});
+    $('.first-parallax-block').parallax({imageSrc: '..'+$('.first-parallax-block').attr('data-image-src')});
+    $('.second-parallax-block').parallax({imageSrc: '..'+$('.second-parallax-block').attr('data-image-src')});
 
-    $('.first-parallax-block-fodies').parallax({imageSrc: '../image/parallax-foodies-1.jpeg'});
+    $('.first-parallax-block-fodies').parallax({imageSrc: '..'+$('.first-parallax-block-fodies').attr('data-image-src')});
+
+    $('.parallax-block-1-business').parallax({imageSrc: '..'+$('.parallax-block-1-business').attr('data-image-src')});
+    $('.parallax-block-2-business').parallax({imageSrc: '..'+$('.parallax-block-2-business').attr('data-image-src')});
 
 
     $('.gallery-open').find('img').each(function(){
@@ -12,6 +15,12 @@ $(document).ready(function () {
            $('#modal-image').attr('src', $(this).attr('src'));
            $('#gallery-modal').modal("show");
        });
+    });
+
+    $('.producto').click(function(e){
+        e.preventDefault();
+        $('#product-image').attr('src', $(this).find('img').attr('src'));
+        $('#product-name').text($(this).find('h3').text());
     });
 });
 
