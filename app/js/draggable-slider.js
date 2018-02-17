@@ -4,7 +4,7 @@ $(document).ready(function() {
         $slideBGs = $(".slide__bg"),
         diff = 0,
         curSlide = 0,
-        numOfSlides = $(".slide").length-1,
+        numOfSlides = $(".slide-header").length - 1,
         animating = false,
         animTime = 500,
         autoSlideTimeout,
@@ -12,7 +12,7 @@ $(document).ready(function() {
         $pagination = $(".slider-pagi");
 
     function createBullets() {
-        for (var i = 0; i < numOfSlides+1; i++) {
+        for (var i = 0; i < numOfSlides + 1; i++) {
             var $li = $("<li class='slider-pagi__elem'></li>");
             $li.addClass("slider-pagi__elem-"+i).data("page", i);
             if (!i) $li.addClass("active");

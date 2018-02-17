@@ -1,10 +1,5 @@
 @import "common-elements.scss";
 
-
-.foodies.first{
-  padding: 25px 0px;
-}
-
 .slide{
   &:nth-child(1) {
     left: 0;
@@ -64,10 +59,10 @@
     }
   }
   &:nth-child(4) {
-    left: 300%;
+    left: 200%;
 
     .slide__bg {
-      left: -150%;
+      left: -100%;
       background-image: url('../image/slider-4-foodies.jpg');
     }
 
@@ -80,6 +75,73 @@
         background-color: $grain;
         opacity: 0.8;
       }
+    }
+  }
+}
+
+.foodies{
+  padding: 0px;
+}
+
+.foodies.first{
+  padding-top: 25px;
+}
+
+.foodies.second{
+  padding: 25px 0px;
+
+  .carousel-item{
+    a{
+      display: inline;
+      position: relative;
+      overflow: hidden;
+
+      h4{
+        position:relative;
+        text-decoration:none;
+        display:inline-block;
+        width: 100%;
+        transition: 0.25s;
+        color: $blackboard;
+        @media screen and (max-width: 766px){
+          margin: 15px auto;
+        }
+      }
+
+      @media screen and (min-width: 767px){
+        h4:after {
+          display:block;
+          content: '';
+          border-bottom: solid 1px $blackboard;
+          transform: scaleX(0);
+          transition: transform 0.25s ease-in-out;
+          transform-origin:100% 50%
+        }
+        h4:hover:after {
+          transform: scaleX(1);
+          transform-origin:0 50%;
+        }
+        h4:hover{
+          color: $blackboard;
+        }
+      }
+    }
+    a:hover{
+      text-decoration: none;
+    }
+  }
+}
+
+.foodies.third{
+  background-color: $oxblood;
+  padding: 25px 0px;
+  color: $grain;
+
+  .image-resizer{
+    @media screen and (min-width: 1024px){
+      min-height: 250px;
+      max-height: 250px;
+      cursor: pointer;
     }
   }
 }
