@@ -5,7 +5,13 @@
 
 <h2>Install</h2>
 
-<p>As it is working with Gulp, just download it anywhere on your server or localhost.</p>
+<p>For installing Gulp locally, just write in your terminal:</p>
+
+`npm init`
+
+`npm install --save-dev gulp-install`
+
+
 <p>For working on Development Environment (most probably your localhost), just open your Terminal, navigate to the download (or cloned) directory and run Gulp.</p>
 
 `gulp dev`
