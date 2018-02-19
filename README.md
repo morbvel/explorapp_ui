@@ -27,9 +27,10 @@
 <h2>Version Control</h2>
 
 <ul>
-    <li>0.0.14: Business page created for every resolution (17/02/2018)</li>
-    <li>0.0.13: Distributive page created for every resolution (17/02/2018)</li>
-    <li>0.0.12: Home page created for every resolution (09/02/2018)</li>
+    <li>0.0.4: Profile page created for every resolution</li>
+    <li>0.0.31: Business page created for every resolution (17/02/2018)</li>
+    <li>0.0.3: Distributive page created for every resolution (17/02/2018)</li>
+    <li>0.0.2: Home page created for every resolution (09/02/2018)</li>
     <li>0.0.11: First elements and CSS in Home page (03/02/2018)</li>
     <li>0.0.1: Project creation (03/02/2018)</li>
 </ul>
