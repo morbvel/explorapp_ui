@@ -13,6 +13,237 @@
 </head>
 <body>
 
+    <!-- Menu -->
+    <nav role="navigation">
+        <div id="menuToggle" class="container">
+            <input type="checkbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+                <a href="home.html"><li>Home</li></a>
+                <a href="foodies.html"><li>Foodies</li></a>
+                <a href="#"><li>Stays</li></a>
+                <a href="#"><li>Live Shows</li></a>
+                <li></li>
+                <li>
+                    <p><a href="#"><i class="far fa-user"></i>Miguel</a><i class="fas fa-sign-out-alt"></i></p>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Cabecera -->
+    <div class="container-fluid capa-cabecera">
+        <div class="image-resizer">
+            <img src="./image/portada-valladolid.jpeg" />
+        </div>
+    </div>
+
+    <!-- Breadcrumb -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="home.html" class="link-breadcrumb">Inicio</a><i class="fas fa-angle-right"></i>
+                <span class="link-breadcrumb active">Perfil</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cuerpo perfil -->
+    <div class="container-fluid cuerpo-perfil">
+        <div class="container">
+            <h2>Miguel Orbañanos Vela</h2>
+            <div class="row">
+                <div class="col col-12 col-md-8">
+                    <!-- Biografía del usuario. -->
+                    <div class="description-profile col-12">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a cursus elit. Proin et urna dui. Curabitur magna ante, sagittis accumsan sagittis vel, elementum eu libero. Ut pharetra, ante sit amet tempor ultricies, urna odio aliquet turpis, sed tristique lacus sapien vitae urna. Nullam convallis feugiat nulla a sodales. Suspendisse ipsum erat, auctor ac ex sed, tincidunt mollis est. Sed et commodo neque. Sed nunc libero, hendrerit quis ultricies quis, tristique ac lacus.</p>
+                        <p>Vestibulum accumsan fermentum iaculis. Aliquam non odio nunc. Cras turpis leo, facilisis in orci pretium, dictum interdum lacus. Aenean dapibus dui in orci blandit scelerisque. Aenean dignissim orci vel quam scelerisque, nec mattis libero placerat. Mauris id mauris eu sem faucibus pellentesque. Fusce eu facilisis diam.</p>
+                        <p>Maecenas varius sollicitudin nibh, eu pharetra lectus lobortis sit amet. Maecenas lobortis dapibus sapien, a volutpat lectus tincidunt et. Cras varius scelerisque est nec facilisis. Aliquam nec congue neque, nec consequat leo. Vivamus ullamcorper purus erat, et rhoncus eros fermentum vitae.</p>
+                    </div>
+
+                    <hr/>
+
+                    <!-- Galería del usuario -->
+                    <div class="galeria-usuario col-12">
+                        <h3>Galería de Miguel</h3>
+                        <div class="row">
+                            <div class="gallery-open col-12 col-md-3" data-toggle="modal" data-target="#product-modal">
+                                <div class="image-resizer zoom">
+                                    <img src="./image/foto1.jpeg" />
+                                </div>
+                            </div>
+
+                            <div class="gallery-open col-12 col-md-3" data-toggle="modal" data-target="#product-modal">
+                                <div class="image-resizer zoom">
+                                    <img src="./image/foto2.jpeg" />
+                                </div>
+                            </div>
+
+                            <div class="gallery-open col-12 col-md-3" data-toggle="modal" data-target="#product-modal">
+                                <div class="image-resizer zoom">
+                                    <img src="./image/foto3.jpg" />
+                                </div>
+                            </div>
+
+                            <div class="gallery-open col-12 col-md-3" data-toggle="modal" data-target="#product-modal">
+                                <div class="image-resizer zoom">
+                                    <img src="./image/foto4.jpeg" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr/>
+
+                    <!-- Negocios del Usuario -->
+                    <div class="negocios-usuario col-12">
+                        <h3>Negocios de Miguel</h3>
+                        <div class="row">
+                            <div class="negocio col-12 col-md-3">
+                                <a href="business.html">
+                                    <div class="image-resizer zoom">
+                                        <img src="./image/cocido.jpg" />
+                                    </div>
+                                    <h4>El Rincón de Isi</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-12 col-md-4">
+                    <!-- Datos del perfil del usuario -->
+                    <div class="data-profile">
+                        <div class="image-resizer">
+                            <img src="./image/perfil.jpg" class="imagen-perfil-usuario" />
+                        </div>
+                        <div class="row contact separator">
+                            <i class="fas fa-user col col-4"></i><span class="col col-8">Miguel Orbañanos Vela</span>
+                        </div>
+                        <div class="row contact">
+                            <i class="fab fa-telegram-plane col col-4"></i><span class="col col-8"><a href="mailto:morbvel@me.com">morbvel@me.com</a></span>
+                        </div>
+                        <div class="row contact">
+                            <i class="fas fa-phone col col-4"></i><span class="col col-8">626 269 366</span>
+                        </div>
+                        <div class="row contact">
+                            <i class="fas fa-users col col-4"></i><span class="col col-8">150</span>
+                        </div>
+                        <div class="row contact separator">
+                            <span class="botton">Nuevo Negocio</span>
+                            <span class="botton">Cambiar Datos</span>
+                        </div>
+                    </div>
+
+                    <!-- Ofertas del usuario -->
+                    <div class="offers-profile">
+                        <h3>Ofertas disponibles</h3>
+                        <ul>
+                            <li><span>Nombre del Negocio</span><i class="fas fa-angle-right"></i></li>
+                            <li><span>Nombre del Negocio</span><i class="fas fa-angle-right"></i></li>
+                            <li><span>Nombre del Negocio</span><i class="fas fa-angle-right"></i></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="row">
+                <div class="col col-12 col-md-4 first">
+                    <form action="#" method="post">
+                        <h3>Newsletter</h3>
+                        <input type="email" placeholder="Introduzca su email" class="form-input col-12 newsletter-input" />
+                        <input type="submit" class="btn btn-primary col-12" value="Suscribirse" />
+                    </form>
+                </div>
+
+                <div class="col col-12 col-md-4 second">
+                    <div class="row">
+                        <a href="#" class="col col-12 col-md-6">Quiénes Somos</a>
+                        <a href="#" class="col col-12 col-md-6">Contacto</a>
+                        <a href="#" class="col col-12 col-md-6">Empleo</a>
+                        <a href="#" class="col col-12 col-md-6">Mapa Web</a>
+                    </div>
+                </div>
+
+                <div class="col col-12 col-md-4 third">
+                    <span class="col-12 col-md-4 icon-footer"><a href="http://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></span>
+                    <span class="col-12 col-md-4 icon-footer"><a href="http://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></span>
+                    <span class="col-12 col-md-4 icon-footer"><a href="http://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></span>
+                    <span class="col-12 col-md-4 icon-footer"><a href="http://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="gallery-modal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+                <!-- Modal header -->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <img id="modal-image" />
+                    <hr/>
+                    <div class="row">
+                        <span class="image-likes col-3"><i class="far fa-heart"></i>1567</span>
+                        <span class="image-comments col-3"><i class="far fa-comments"></i>53</span>
+                        <span class="image-place col-6"><i class="fas fa-street-view"></i><a href="https://www.google.es/maps/place/Boream+Digital/@40.4392638,-3.6210056,17z/data=!3m1!4b1!4m5!3m4!1s0xd4228f2b010006d:0xf53e05c7ea1981c4!8m2!3d40.4392597!4d-3.6188116" target="_blank">boream digital</a></span>
+                    </div>
+                    <div class="row">
+                        <div class="col col-12 comments">
+                            <a href="#" class="col col-6">Miguel Orbañanos</a>
+                            <span class="col col-6">15/02/2018</span>
+                            <p class="col col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at.</p>
+                            <hr/>
+                        </div>
+
+                        <div class="col col-12 comments">
+                            <a href="#" class="col col-6">Miguel Orbañanos</a>
+                            <span class="col col-6">15/02/2018</span>
+                            <p class="col col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at.</p>
+                            <hr/>
+                        </div>
+
+                        <div class="col col-12 comments">
+                            <a href="#" class="col col-6">Miguel Orbañanos</a>
+                            <span class="col col-6">15/02/2018</span>
+                            <p class="col col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at.</p>
+                            <hr/>
+                        </div>
+
+                        <div class="col col-12 comments">
+                            <a href="#" class="col col-6">Miguel Orbañanos</a>
+                            <span class="col col-6">15/02/2018</span>
+                            <p class="col col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit orci urna, at facilisis dolor eleifend at.</p>
+                            <hr/>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
 
 
 

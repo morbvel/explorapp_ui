@@ -1,1 +1,132 @@
 @import "common-elements.scss";
+
+.cuerpo-perfil{
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  .image-resizer{
+    min-height: 150px;
+    @media screen and (min-width: 767px) and (max-width: 1023px){
+      min-height: 100px;
+    }
+    img{
+      max-width: 100%;
+    }
+  }
+
+  .description-profile, .galeria-usuario, .negocios-usuario{
+    padding: 0px;
+    h3{
+      font-size: 1.4em;
+    }
+    h4{
+      font-size: 1.2em;
+      padding-top: 15px;
+    }
+
+    .image-resizer{
+      min-height: 150px;
+      max-height: 150px;
+      @media screen and (max-width: 1023px){
+        min-height: 100px;
+        margin: 25px 0px;
+      }
+      img{
+        min-height: initial;
+        max-height: initial;
+        max-width: 100%;
+      }
+    }
+
+    .galeria{
+      @media all and (max-width: 766px){
+        margin: 15px auto;
+      }
+    }
+  }
+
+  .data-profile{
+    background-color: $white;
+    border: 1px solid $blackboard;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    @media all and (max-width: 766px){
+      margin-top: 50px;
+    }
+
+    .separator{
+      border-top: 1px solid $blackboard;
+      padding-top: 15px;
+    }
+    .contact{
+      margin: 15px;
+
+      span{
+        @media screen and (min-width: 767px) and (max-width: 1023px){
+          font-size: 0.7em;
+        }
+      }
+
+      .fa-user, .fa-telegram-plane, .fa-phone, .fa-users{
+        color: $oxblood;
+        margin-top: 5px;
+      }
+
+      .botton{
+        width: 100%;
+        @media screen and (min-width: 1024px){
+          width: 45%;
+        }
+        float: left;
+        margin: 10px 5px;
+        padding: 10px;
+        text-align: center;
+        color: $grain;
+        font-family: $robotoThin;
+        background-color: $oxblood;
+        border: 1px solid $oxblood;
+        cursor: pointer;
+        transition: all 0.3s;
+
+      }
+      .botton:hover{
+        background-color: $grain;
+        color: $oxblood;
+      }
+    }
+  }
+
+  .offers-profile{
+    margin-top: 35px;
+    background-color: $white;
+    border: 1px solid $blackboard;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 25px;
+
+    ul{
+      list-style: none;
+      li{
+        padding: 10px 0px;
+        cursor: pointer;
+        transition: all 0.5s;
+        border-bottom: 1px solid transparent;
+        @media all and (min-width: 767px) and (max-width: 1023px){
+          font-size: 0.8em;
+        }
+        .fa-angle-right{
+          float: right;
+          @media all and (min-width: 767px) and (max-width: 1023px){
+            margin-top: 5px;
+          }
+        }
+      }
+      li:hover{
+        border-bottom: 1px solid $oxblood;
+      }
+    }
+  }
+}

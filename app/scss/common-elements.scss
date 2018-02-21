@@ -1,5 +1,9 @@
 @import "variables.scss";
 
+hr{
+  border-color: $blackboard;
+}
+
 *{
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -14,6 +18,10 @@ body{
   background-color: $grain;
   p {
     font-size: 0.8em;
+  }
+
+  a, a:hover{
+    color: $oxblood;
   }
 }
 
@@ -245,13 +253,18 @@ h1,h2,h3,h4,h5,h6{
       }
     }
 
+    .first, .second, .third{
+      @media screen and (max-width: 766px){
+        padding: 0px 15px;
+      }
+    }
+
     .first{
       border-right: 1px solid $tan;
 
       @media screen and (max-width: 766px){
         border-right: none;
         border-bottom: 1px solid $tan;
-        padding: 0px;
       }
       h3{
         color: $grain;
@@ -288,6 +301,7 @@ h1,h2,h3,h4,h5,h6{
       @media screen and (max-width: 766px){
         border-right: none;
         border-bottom: 1px solid $tan;
+        padding: 0px 15px;
       }
 
       a{
@@ -824,5 +838,19 @@ svg {
       }
     }
 
+  }
+}
+
+.capa-cabecera{
+  padding: 0px;
+
+  .image-resizer{
+    min-height: 550px;
+    max-height: 550px;
+    img{
+      max-height: initial;
+      max-width: initial;
+      min-width: 100%;
+    }
   }
 }
