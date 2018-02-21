@@ -6,6 +6,9 @@
   font-family: OpenSans;
   src: url(../fonts/OpenSans-Regular.ttf); }
 
+hr {
+  border-color: #565656; }
+
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -19,6 +22,8 @@ body {
   background-color: #D7CEC7; }
   body p {
     font-size: 0.8em; }
+  body a, body a:hover {
+    color: #76323F; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto-Thin"; }
@@ -193,13 +198,15 @@ h1, h2, h3, h4, h5, h6 {
   @media screen and (max-width: 766px) {
     .footer .container .col:last-of-type {
       margin-bottom: 10px; } }
+  @media screen and (max-width: 766px) {
+    .footer .container .first, .footer .container .second, .footer .container .third {
+      padding: 0px 15px; } }
   .footer .container .first {
     border-right: 1px solid #C09F80; }
     @media screen and (max-width: 766px) {
       .footer .container .first {
         border-right: none;
-        border-bottom: 1px solid #C09F80;
-        padding: 0px; } }
+        border-bottom: 1px solid #C09F80; } }
     .footer .container .first h3 {
       color: #D7CEC7; }
     .footer .container .first input[type='email'], .footer .container .first input[type='email']:focus, .footer .container .first input[type='email']:active {
@@ -227,7 +234,8 @@ h1, h2, h3, h4, h5, h6 {
     @media screen and (max-width: 766px) {
       .footer .container .second {
         border-right: none;
-        border-bottom: 1px solid #C09F80; } }
+        border-bottom: 1px solid #C09F80;
+        padding: 0px 15px; } }
     .footer .container .second a {
       min-height: 15px;
       text-align: center;
@@ -623,3 +631,108 @@ svg {
       text-align: right; }
     .modal .modal-body .row .comments p {
       padding-top: 15px; }
+
+.capa-cabecera {
+  padding: 0px; }
+  .capa-cabecera .image-resizer {
+    min-height: 550px;
+    max-height: 550px; }
+    .capa-cabecera .image-resizer img {
+      max-height: initial;
+      max-width: initial;
+      min-width: 100%; }
+
+.cuerpo-perfil {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+  .cuerpo-perfil .image-resizer {
+    min-height: 150px; }
+    @media screen and (min-width: 767px) and (max-width: 1023px) {
+      .cuerpo-perfil .image-resizer {
+        min-height: 100px; } }
+    .cuerpo-perfil .image-resizer img {
+      max-width: 100%; }
+  .cuerpo-perfil .description-profile, .cuerpo-perfil .galeria-usuario, .cuerpo-perfil .negocios-usuario {
+    padding: 0px; }
+    .cuerpo-perfil .description-profile h3, .cuerpo-perfil .galeria-usuario h3, .cuerpo-perfil .negocios-usuario h3 {
+      font-size: 1.4em; }
+    .cuerpo-perfil .description-profile h4, .cuerpo-perfil .galeria-usuario h4, .cuerpo-perfil .negocios-usuario h4 {
+      font-size: 1.2em;
+      padding-top: 15px; }
+    .cuerpo-perfil .description-profile .image-resizer, .cuerpo-perfil .galeria-usuario .image-resizer, .cuerpo-perfil .negocios-usuario .image-resizer {
+      min-height: 150px;
+      max-height: 150px; }
+      @media screen and (max-width: 1023px) {
+        .cuerpo-perfil .description-profile .image-resizer, .cuerpo-perfil .galeria-usuario .image-resizer, .cuerpo-perfil .negocios-usuario .image-resizer {
+          min-height: 100px;
+          margin: 25px 0px; } }
+      .cuerpo-perfil .description-profile .image-resizer img, .cuerpo-perfil .galeria-usuario .image-resizer img, .cuerpo-perfil .negocios-usuario .image-resizer img {
+        min-height: initial;
+        max-height: initial;
+        max-width: 100%; }
+    @media all and (max-width: 766px) {
+      .cuerpo-perfil .description-profile .galeria, .cuerpo-perfil .galeria-usuario .galeria, .cuerpo-perfil .negocios-usuario .galeria {
+        margin: 15px auto; } }
+  .cuerpo-perfil .data-profile {
+    background-color: #eeeeee;
+    border: 1px solid #565656;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; }
+    @media all and (max-width: 766px) {
+      .cuerpo-perfil .data-profile {
+        margin-top: 50px; } }
+    .cuerpo-perfil .data-profile .separator {
+      border-top: 1px solid #565656;
+      padding-top: 15px; }
+    .cuerpo-perfil .data-profile .contact {
+      margin: 15px; }
+      @media screen and (min-width: 767px) and (max-width: 1023px) {
+        .cuerpo-perfil .data-profile .contact span {
+          font-size: 0.7em; } }
+      .cuerpo-perfil .data-profile .contact .fa-user, .cuerpo-perfil .data-profile .contact .fa-telegram-plane, .cuerpo-perfil .data-profile .contact .fa-phone, .cuerpo-perfil .data-profile .contact .fa-users {
+        color: #76323F;
+        margin-top: 5px; }
+      .cuerpo-perfil .data-profile .contact .botton {
+        width: 100%;
+        float: left;
+        margin: 10px 5px;
+        padding: 10px;
+        text-align: center;
+        color: #D7CEC7;
+        font-family: "Roboto-Thin";
+        background-color: #76323F;
+        border: 1px solid #76323F;
+        cursor: pointer;
+        transition: all 0.3s; }
+        @media screen and (min-width: 1024px) {
+          .cuerpo-perfil .data-profile .contact .botton {
+            width: 45%; } }
+      .cuerpo-perfil .data-profile .contact .botton:hover {
+        background-color: #D7CEC7;
+        color: #76323F; }
+  .cuerpo-perfil .offers-profile {
+    margin-top: 35px;
+    background-color: #eeeeee;
+    border: 1px solid #565656;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 25px; }
+    .cuerpo-perfil .offers-profile ul {
+      list-style: none; }
+      .cuerpo-perfil .offers-profile ul li {
+        padding: 10px 0px;
+        cursor: pointer;
+        transition: all 0.5s;
+        border-bottom: 1px solid transparent; }
+        @media all and (min-width: 767px) and (max-width: 1023px) {
+          .cuerpo-perfil .offers-profile ul li {
+            font-size: 0.8em; } }
+        .cuerpo-perfil .offers-profile ul li .fa-angle-right {
+          float: right; }
+          @media all and (min-width: 767px) and (max-width: 1023px) {
+            .cuerpo-perfil .offers-profile ul li .fa-angle-right {
+              margin-top: 5px; } }
+      .cuerpo-perfil .offers-profile ul li:hover {
+        border-bottom: 1px solid #76323F; }

@@ -6,6 +6,9 @@
   font-family: OpenSans;
   src: url(../fonts/OpenSans-Regular.ttf); }
 
+hr {
+  border-color: #565656; }
+
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -19,6 +22,8 @@ body {
   background-color: #D7CEC7; }
   body p {
     font-size: 0.8em; }
+  body a, body a:hover {
+    color: #76323F; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto-Thin"; }
@@ -193,13 +198,15 @@ h1, h2, h3, h4, h5, h6 {
   @media screen and (max-width: 766px) {
     .footer .container .col:last-of-type {
       margin-bottom: 10px; } }
+  @media screen and (max-width: 766px) {
+    .footer .container .first, .footer .container .second, .footer .container .third {
+      padding: 0px 15px; } }
   .footer .container .first {
     border-right: 1px solid #C09F80; }
     @media screen and (max-width: 766px) {
       .footer .container .first {
         border-right: none;
-        border-bottom: 1px solid #C09F80;
-        padding: 0px; } }
+        border-bottom: 1px solid #C09F80; } }
     .footer .container .first h3 {
       color: #D7CEC7; }
     .footer .container .first input[type='email'], .footer .container .first input[type='email']:focus, .footer .container .first input[type='email']:active {
@@ -227,7 +234,8 @@ h1, h2, h3, h4, h5, h6 {
     @media screen and (max-width: 766px) {
       .footer .container .second {
         border-right: none;
-        border-bottom: 1px solid #C09F80; } }
+        border-bottom: 1px solid #C09F80;
+        padding: 0px 15px; } }
     .footer .container .second a {
       min-height: 15px;
       text-align: center;
@@ -623,6 +631,16 @@ svg {
       text-align: right; }
     .modal .modal-body .row .comments p {
       padding-top: 15px; }
+
+.capa-cabecera {
+  padding: 0px; }
+  .capa-cabecera .image-resizer {
+    min-height: 550px;
+    max-height: 550px; }
+    .capa-cabecera .image-resizer img {
+      max-height: initial;
+      max-width: initial;
+      min-width: 100%; }
 
 @-webkit-keyframes colortransition {
   0% {
