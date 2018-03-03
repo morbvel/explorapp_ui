@@ -1,0 +1,67 @@
+@import "common-elements.scss";
+
+.cuerpo-noticia{
+  padding: 25px 0px;
+}
+
+.cabecera-noticia{
+
+  .capa-titulo{
+    @media screen and (min-width: 767px){
+      float: left;
+    }
+  }
+
+  .capa-iconos{
+
+    margin-top: 10px;
+    float: right;
+
+    .fa-twitter, .fa-facebook, .fa-whatsapp, .fa-pinterest{
+      color: $oxblood;
+      font-size: 1.5em;
+      float: right;
+      margin: 0px 15px;
+      transition: all 0.5s;
+      @media screen and (min-width: 767px) and (max-width: 1023px){
+        margin-top: 15px;
+      }
+      @media screen and (max-width: 766px){
+        margin: 15px;
+        float: left;
+      }
+    }
+
+    .fa-facebook:hover{
+      color: $dark-facebook;
+    }
+    .fa-twitter:hover{
+      color: $twitter;
+    }
+    .fa-whatsapp:hover{
+      color: $whatsapp;
+    }
+    .fa-pinterest:hover{
+      color: $pinterest;
+    }
+  }
+}
+
+.contenido-noticia{
+
+  .subtítulo{
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 15px;
+  }
+  .image-resizer{
+    min-height: 250px;
+    max-height: 250px;
+    margin: 25px 0px;
+    img{
+      max-height: initial;
+      max-width: initial;
+      min-width: 100%;
+    }
+  }
+}
