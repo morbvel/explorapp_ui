@@ -97,7 +97,7 @@ h1,h2,h3,h4,h5,h6{
   display: block;
   position: absolute;
   top: 0px;
-  z-index: 100000;
+  z-index: 100;
   -webkit-user-select: none;
   user-select: none;
   transform: translate(-50%, -50%);
@@ -838,6 +838,92 @@ svg {
       }
     }
 
+
+    .form-login{
+      padding: 15px;
+      padding-left: 0px;
+      border-right: 1px solid $oxblood;
+
+      @media screen and (max-width: 766px){
+        border: none;
+        border-bottom: 1px solid $oxblood;
+        padding: 0px;
+        padding-bottom: 15px;
+      }
+
+      .username-login, .password-login{
+        min-height: 40px;
+        border-radius: 5px;
+        border: 1px solid $grain;
+        font-family: $robotoThin;
+        margin: 15px 0px;
+      }
+
+      .submit-login{
+        padding: 10px;
+        margin-top: 15px;
+        border: 1px solid $oxblood;
+        background-color: $oxblood;
+        color: $grain;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        cursor: pointer;
+      }
+      .submit-login:hover{
+        background-color: $grain;
+        color: $oxblood;
+      }
+
+    }
+
+    .nuevo-registro{
+      @media screen and (max-width: 766px){
+        margin: 0px;
+        padding: 0px;
+      }
+    }
+
+    .texto-registro{
+      padding: 15px;
+      padding-right: 0px;
+      @media screen and (max-width: 766px){
+        margin: 15px 0px;
+        padding: 0px;
+      }
+    }
+    .boton-registro{
+      text-align: center;
+      padding: 10px;
+      margin-top: 15px;
+      margin-left: 15px;
+      border: 1px solid $oxblood;
+      background-color: $oxblood;
+      color: $grain;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+      cursor: pointer;
+      @media screen and (max-width: 766px){
+        margin: 15px 0px;
+      }
+    }
+    .boton-registro:hover{
+      background-color: $grain;
+      color: $oxblood;
+      text-decoration: none;
+    }
+
   }
 }
 
@@ -854,3 +940,6 @@ svg {
     }
   }
 }
+
+
+

@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   position: absolute;
   top: 0px;
-  z-index: 100000;
+  z-index: 100;
   -webkit-user-select: none;
   user-select: none;
   transform: translate(-50%, -50%);
@@ -631,6 +631,80 @@ svg {
       text-align: right; }
     .modal .modal-body .row .comments p {
       padding-top: 15px; }
+
+.modal .modal-body .form-login {
+  padding: 15px;
+  padding-left: 0px;
+  border-right: 1px solid #76323F; }
+  @media screen and (max-width: 766px) {
+    .modal .modal-body .form-login {
+      border: none;
+      border-bottom: 1px solid #76323F;
+      padding: 0px;
+      padding-bottom: 15px; } }
+  .modal .modal-body .form-login .username-login, .modal .modal-body .form-login .password-login {
+    min-height: 40px;
+    border-radius: 5px;
+    border: 1px solid #D7CEC7;
+    font-family: "Roboto-Thin";
+    margin: 15px 0px; }
+  .modal .modal-body .form-login .submit-login {
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid #76323F;
+    background-color: #76323F;
+    color: #D7CEC7;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer; }
+  .modal .modal-body .form-login .submit-login:hover {
+    background-color: #D7CEC7;
+    color: #76323F; }
+
+@media screen and (max-width: 766px) {
+  .modal .modal-body .nuevo-registro {
+    margin: 0px;
+    padding: 0px; } }
+
+.modal .modal-body .texto-registro {
+  padding: 15px;
+  padding-right: 0px; }
+  @media screen and (max-width: 766px) {
+    .modal .modal-body .texto-registro {
+      margin: 15px 0px;
+      padding: 0px; } }
+
+.modal .modal-body .boton-registro {
+  text-align: center;
+  padding: 10px;
+  margin-top: 15px;
+  margin-left: 15px;
+  border: 1px solid #76323F;
+  background-color: #76323F;
+  color: #D7CEC7;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer; }
+  @media screen and (max-width: 766px) {
+    .modal .modal-body .boton-registro {
+      margin: 15px 0px; } }
+
+.modal .modal-body .boton-registro:hover {
+  background-color: #D7CEC7;
+  color: #76323F;
+  text-decoration: none; }
 
 .capa-cabecera {
   padding: 0px; }
